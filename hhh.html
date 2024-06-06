@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ehe</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding: 30px;
+        background-color: #f0f0f0;
+    }
+    h1 {
+        margin-bottom: 20px;
+        color: #333;
+        font-size:60px;
+    }
+    p {
+        font-size: 30px;
+        line-height: 1.6;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+    #storyImage {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-size:50px;
+    }
+    h2 {
+      font-size:60px;
+    }
+</style>
+</head>
+<body>
+  <button class="button" id="changeBackgroundBtn">Change Background Color</button> 
+<h1>Azii and Enzoo Story</h1>
+
+<p>Paano nga ba kami nag simulaa? Tara at Alamin Natin.</p>
+
+<p> karamihan naman sa atin alam ang rpw? kasi dito kami nag kakilala ng future wife ko. kasali kami kasi sa gc na tinatawag na Bps, marami ka magiging kaibigan na naka rpw account din. naalala ko pa nantri-trip ako non inaaya ko sila mag jollibee ganyan. tapos ayun inaya ko si azii syempre naman sinabayan nya yung trip ko non. ehh ako naman tong laging curious sa isang girl. una nag friend request ako sa kanya sa fb, tapos nag chat ako. sabi ko "pabili yelo" tapos dahil lang sa sinabi ko na yan. dun nag simula ang love story namin. </p>
+
+<p>nung nag tanong ako na puwedeng manligaw sa kanya. syempre pumayag siya non. tapos in just a 3 dayss naging kami? what? diba kahit sino magugulat eh. pero yung relationship namin nag work. nag update, update kami sa isa't isa. hangggang tumagal kami </p>
+
+<h2> First Date </h2>
+
+<p> first date, kahit sino naman nakaranas na nyan. nung sinabi nya na mag meet up kami after sy. tapos ayon nakapag hintay kami, hanggang sa lumipas ang 2 buwan, nag kita kami. syempre nagulat akoo. whattt? brooo, ang tangkad nya sa akin. . napaisip ako sana di siya ma turn off kasii ang liit ko non. first meet syempre nagkakahiyaan pa. nunh niyakap ko na siya, and pumasok kami sa Sm pinakapit ko yung kamay niya sa braso ko syempre. tapos nagulat siya non. kasi nonchalant pa siya non. nung pag kaupo namin sa vacant seat dun sa Sm. nag kwento ako. basta ang random non kasi nagkakahiyaan pa. tapos dito na namin nilabas ang clingy side namin. nung inakbayan ko siya dun nagsimula maging confi kami sa isa't isa. tapos ayun nag enjoy kamii magkasama, and nag night walking kami</p>
+
+<p>nung bago kasi kami mag date, nakabili na ako ng gift non para sa kanya. kasii wala pa raw siya natatanggap ni isa regalo sa mga bf nya. so kinuha ko na yung oppurtunity na yon para mapasaya siya, bumili ako ng ring non. kala ko nga di nya magugustuhan. nung pag kabigay ko sa kanya non umiyakk siyaaa. oo umiyak siya, kahit sino magugulat eh dibaaaa? sobrang happy nya non, syempre happy din ako. tapos ayun nakauwi na siya, nakakaiyak syempre bilis ng oras eh. dito na nagtatapos ehe</p>
+
+       <p>Night Walking 🌃 & First Date 🌷</p>
+      
+<img id="storyImage" src="50.jpeg" alt="Knight" height="1000" width="900">
+         
+
+
+
+<script>
+    const changeBackgroundBtn = document.getElementById('changeBackgroundBtn');
+
+    changeBackgroundBtn.addEventListener('click', function() {
+        document.body.style.backgroundColor = getRandomColor();
+    });
+
+    function getRandomColor() {
+        const letters = '0123456789ABCDEF';
+        let color = '#';
+        for (let i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+</script>
+
+</body>
+</html>
